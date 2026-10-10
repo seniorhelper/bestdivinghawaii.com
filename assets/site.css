@@ -1,0 +1,117 @@
+/* Best Diving Hawaii — shared layer loaded after each page's own styles.
+   Unified header/footer, guide cards, document pages, contact form, icons, a11y. */
+
+/* ---------- accessibility ---------- */
+.skip{position:absolute;left:-9999px;top:0;z-index:1000;background:#22d3ee;color:#030b16;padding:10px 16px;font-family:'DM Mono',monospace;font-size:.75rem}
+.skip:focus{left:12px;top:12px}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid #22d3ee;outline-offset:3px}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+  .fi.h{opacity:1!important;transform:none!important}
+  #bc{display:none}
+}
+
+/* ---------- header ---------- */
+#hdr .logo img{height:56px;width:auto;max-width:260px}
+#hdr.sc .logo img{height:50px}
+.nav{gap:20px}
+.nav a{padding:6px 0;border-bottom:1px solid transparent}
+.nav a[aria-current]{color:#22d3ee;border-bottom-color:rgba(34,211,238,.5)}
+@media (max-width:1180px){.nav{display:none}.hbg{display:flex}}
+.hbg{width:44px;height:44px;align-items:center;justify-content:center}
+.mob a{display:block}
+@media (max-width:520px){#hdr{padding:0 16px}#hdr .logo img{height:44px}}
+
+/* ---------- footer ---------- */
+footer .fg2.f5{grid-template-columns:1.4fr repeat(4,1fr);gap:32px}
+@media (max-width:1000px){footer .fg2.f5{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){footer .fg2.f5{grid-template-columns:1fr}}
+.fsafe{font-size:.8rem;color:#9cc4dc;max-width:300px;line-height:1.6;border-left:2px solid rgba(34,211,238,.4);padding-left:12px}
+.fcopy,.fpow{opacity:.9!important}
+.fcopy a,.fpow a{color:#9cc4dc!important;text-decoration:underline;text-underline-offset:2px}
+footer .fll a{display:inline-block;padding:3px 0}
+.footad-wrap{margin-bottom:40px}
+
+/* ---------- inline svg icons ---------- */
+.ic-svg{display:block}
+.svgi{display:flex;align-items:center;justify-content:flex-start;color:#22d3ee;line-height:1}
+.svgi .ic-svg{width:30px;height:30px}
+.ic-inl{display:inline-block;vertical-align:-3px;color:#22d3ee;margin-right:4px}
+.hsc-stars{display:flex;gap:3px;color:#c8a45a}
+.hsc-stars .star{width:22px;height:22px}
+.ln b .ic-inl{margin:0}
+
+/* ---------- home: Plan & Learn guides ---------- */
+.guides{padding:100px 0;background:linear-gradient(180deg,#030b16 0%,#071526 100%);border-top:1px solid rgba(34,211,238,.06)}
+.guides h2{margin-top:6px}
+.guides h2 em{color:#22d3ee;font-style:italic}
+.gintro{max-width:640px;margin-top:16px;color:#9cc4dc}
+.gg{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:46px}
+@media (max-width:900px){.gg{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:600px){.gg{grid-template-columns:1fr}}
+.gcard{display:flex;flex-direction:column;gap:8px;padding:28px 26px;border:1px solid rgba(34,211,238,.16);border-radius:8px;background:rgba(7,21,38,.85);color:inherit;transition:border-color .25s,transform .25s,background .25s}
+.gcard:hover{border-color:rgba(34,211,238,.45);background:rgba(14,116,144,.12);transform:translateY(-3px);color:inherit}
+.gic{width:48px;height:48px;border-radius:8px;display:flex;align-items:center;justify-content:center;background:rgba(34,211,238,.1);color:#22d3ee;margin-bottom:6px}
+.gt{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.45rem;color:#fff;line-height:1.15}
+.gd{font-size:.9rem;color:#9cc4dc;line-height:1.6}
+.go{font-family:'DM Mono',monospace;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:#22d3ee;margin-top:auto;padding-top:10px}
+
+/* ---------- article tweaks ---------- */
+.srcsec{padding:56px 0 64px;background:#071526;border-top:1px solid rgba(34,211,238,.06)}
+.srcsec .sources ol{font-size:.86rem}
+.sources a{color:#9cc4dc!important}
+.wrap .tbl-wrap{border:1px solid rgba(34,211,238,.12);border-radius:8px}
+.tbl{min-width:560px}
+.tbl td{color:#b9d6e8}
+.meta a{color:#22d3ee}
+.bc a{text-decoration:none}
+
+/* ---------- document pages (about, policies, contact, sitemap) ---------- */
+#top.doc-top{min-height:0;padding:150px 0 46px;background:radial-gradient(ellipse 80% 120% at 85% 0%,rgba(14,116,144,.28),transparent 60%),#030b16;border-bottom:1px solid rgba(34,211,238,.08)}
+#top.doc-top h1{font-size:clamp(2rem,5vw,3.3rem)}
+.article.doc{padding:56px 0 80px}
+.doc .wrap h2{font-size:clamp(1.5rem,3vw,2rem);margin-top:40px}
+.doc .wrap h2:first-child{margin-top:0}
+
+/* sitemap */
+.smg{display:grid;grid-template-columns:repeat(2,1fr);gap:28px 40px;margin-top:10px}
+@media (max-width:640px){.smg{grid-template-columns:1fr}}
+.smg h2{font-size:1.5rem!important;margin:0 0 10px!important}
+.smg ul{gap:8px!important}
+
+/* contact */
+.cgrid{display:grid;grid-template-columns:1.4fr 1fr;gap:28px;margin-top:8px}
+@media (max-width:820px){.cgrid{grid-template-columns:1fr}}
+.cform{border:1px solid rgba(34,211,238,.18);border-radius:8px;padding:28px;background:rgba(7,21,38,.7)}
+.cform label{display:block;font-family:'DM Mono',monospace;font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:#9cc4dc;margin:14px 0 6px}
+.cform input,.cform select,.cform textarea{width:100%;background:#030b16;border:1px solid rgba(34,211,238,.25);border-radius:6px;color:#fff;padding:12px 14px;font:inherit;font-size:1rem}
+.cform textarea{min-height:150px;resize:vertical}
+.cform .btn{margin-top:20px}
+.hp{position:absolute!important;left:-9999px!important;width:1px;height:1px;overflow:hidden}
+.fstatus{margin-top:14px;font-size:.92rem;color:#9cc4dc;min-height:1.4em}
+.fstatus.ok{color:#5eead4}.fstatus.err{color:#fda4af}
+.cside{border:1px solid rgba(34,211,238,.12);border-radius:8px;padding:24px;background:rgba(7,21,38,.5)}
+.cside h3{margin:0 0 10px!important;font-size:1.3rem}
+.cside p{font-size:.92rem}
+
+/* ---------- phone layout (after base rules) ---------- */
+@media (max-width:600px){
+  .container{padding-left:16px;padding-right:16px}
+  .guides{padding:72px 0}
+  .gcard{padding:22px 20px}
+  .cform{padding:20px}
+  #top.doc-top{padding:120px 0 36px}
+}
+
+/* ---------- legibility: lift tiny mono labels to a readable minimum ---------- */
+.slabel,.kicker,.bc,.ptag,.meta,.eyb,.hsl,.hsc-tag,.hsc-rate,.lbl,.ivl,.chip,.ll,.tli,.mn,.cs,.skce,.skstl,.go,.fct,.fcopy,.fpow,.btn,
+.tbl th,th,dt,.fbadge,.stags span,.albl,.rg,.visl,.tag,.rm,.lvl,.preh,.clbl,.ctap,.sl,.otag,.ocall,.gamelevel,.gamehint,.tk-brand,.tk-sub,
+.pwin,.pcta,.prest,.tk-reset,.cs-meta,.mt-btn,.mttag,.ml,.tm,.legend span,.isbest,.istag,.mob .mob-grp,.nav a,.photo-break-txt p,.cform label,.qac::before{font-size:12px!important}
+.el,.mls,.fineprint,.sloc,figcaption,.floc,.cnote,.callnote,.haw,.loc,.hsc-ad-cap,.tiltnote,.tk-disc,.tk-foot,.featured li,.bform label,.hp-wrap label{font-size:13px!important}
+.mob a{font-size:13px!important}
+@media (max-width:480px){.mg{grid-template-columns:repeat(2,1fr)!important}}
+
+/* single footer advertisement (portrait creative): keep it banner-sized */
+.footad-wrap .hsc-ad{max-width:420px;margin:0 auto!important}
+.footad-wrap .hsc-ad img{max-width:100%;max-height:560px;width:auto;object-fit:contain}
+.footad-wrap .hsc-ad .lbl{opacity:.9;padding-top:10px}
