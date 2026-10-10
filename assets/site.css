@@ -110,3 +110,8 @@ footer .fll a{display:inline-block;padding:3px 0}
 .el,.mls,.fineprint,.sloc,figcaption,.floc,.cnote,.callnote,.haw,.loc,.hsc-ad-cap,.tiltnote,.tk-disc,.tk-foot,.featured li,.bform label,.hp-wrap label{font-size:13px!important}
 .mob a{font-size:13px!important}
 @media (max-width:480px){.mg{grid-template-columns:repeat(2,1fr)!important}}
+
+/* single footer advertisement (portrait creative): keep it banner-sized */
+.footad-wrap .hsc-ad{max-width:420px;margin:0 auto!important}
+.footad-wrap .hsc-ad img{max-width:100%;max-height:560px;width:auto;object-fit:contain}
+.footad-wrap .hsc-ad .lbl{opacity:.9;padding-top:10px}
