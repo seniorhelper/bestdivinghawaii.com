@@ -82,4 +82,4 @@ User-agent: Timpibot
 Allow: /
 
 # ----- Sitemap -----
-Sitemap: https://www.bestdivinghawaii.com/sitemap.xml
+Sitemap: https://bestdivinghawaii.com/sitemap.xml
