@@ -1,0 +1,37 @@
+# Best Diving Hawaii
+
+> Independent, island-by-island guide to scuba diving and snorkeling in Hawaii, published by Eye To Ad Media (Denver, Colorado). Every dive site is briefed with its published depth range, entry type, minimum training, Marine Life Conservation District status, season by swell exposure, access and parking, and the county ocean-safety agency, with sources linked on each page. We are a publisher, not a dive operator.
+
+## Dive sites
+- [Hawaii dive sites hub](https://bestdivinghawaii.com/dive-sites/): island comparison, picks by goal, season by swell direction, certification levels.
+- [Oahu dive sites](https://bestdivinghawaii.com/dive-sites/oahu/): YO-257, San Pedro, Sea Tiger, Corsair, Mahi, Electric Beach, Shark's Cove and Three Tables (Pupukea MLCD), Hanauma Bay.
+- [Maui and Lanai dive sites](https://bestdivinghawaii.com/dive-sites/maui/): Molokini inside and Back Wall (Molokini Shoal MLCD), Five Caves, Ulua Beach, Mala Wharf, Black Rock, Honolua Bay, Lanai Cathedrals.
+- [Big Island dive sites](https://bestdivinghawaii.com/dive-sites/big-island/): Manta Village, Garden Eel Cove, Kealakekua Bay, Two Step, Puako, Old Kona Airport, blackwater.
+- [Kauai dive sites](https://bestdivinghawaii.com/dive-sites/kauai/): Koloa Landing, Sheraton Caverns, Brennecke's Ledge, Tunnels, Niihau and Lehua.
+- [Shore diving in Hawaii](https://bestdivinghawaii.com/shore-diving-hawaii/): lava entries, the 100-ft dive-flag rule (HAR 13-245-9), best beach dives.
+- [Snorkeling guide](https://bestdivinghawaii.com/snorkeling/)
+
+## Tools
+- [Dive Site Finder](https://bestdivinghawaii.com/dive-site-finder/): filter sites by island, month, training and entry. Ratings are seasonal tendencies, not forecasts.
+- [Surface interval calculator](https://bestdivinghawaii.com/flying-after-diving-hawaii/): earliest time to fly or drive to altitude using DAN minimums.
+
+## Rules and safety
+- [Marine Life Conservation Districts](https://bestdivinghawaii.com/marine-life-conservation-districts/): the 11 MLCDs and what their rules prohibit.
+- [Flying and altitude after diving](https://bestdivinghawaii.com/flying-after-diving-hawaii/): DAN 12 h / 18 h intervals; Haleakala 10,023 ft, Saddle Road about 6,632 ft, Maunakea VIS about 9,200 ft.
+- [Reef-safe sunscreen rules](https://bestdivinghawaii.com/reef-safe-sunscreen-rules/): Act 104 (2018) and the Maui County and Hawaii County mineral-only ordinances.
+- [Marine-life etiquette](https://bestdivinghawaii.com/marine-life-etiquette/): distances for turtles, monk seals, spinner dolphins and humpback whales.
+- [Dive conditions and ocean safety](https://bestdivinghawaii.com/dive-conditions-safety/)
+
+## Experiences and planning
+- [Dive experiences](https://bestdivinghawaii.com/experiences/)
+- [Kona manta night dive briefing](https://bestdivinghawaii.com/experiences/manta-ray-dives/)
+- [Night diving](https://bestdivinghawaii.com/experiences/night-diving/)
+- [Best time to dive Hawaii](https://bestdivinghawaii.com/best-time-to-dive-hawaii/)
+- [Scuba certification in Hawaii](https://bestdivinghawaii.com/scuba-certification-hawaii/)
+- [Dive shops by island](https://bestdivinghawaii.com/dive-shops/)
+
+## About
+- [About](https://bestdivinghawaii.com/about/)
+- [Editorial policy](https://bestdivinghawaii.com/editorial-policy/)
+- [Corrections](https://bestdivinghawaii.com/corrections/)
+- [Contact](https://bestdivinghawaii.com/contact/)
