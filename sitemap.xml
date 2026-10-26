@@ -37,4 +37,10 @@
   <url><loc>https://bestdivinghawaii.com/sitemap.html</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://bestdivinghawaii.com/snorkeling/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://bestdivinghawaii.com/terms/</loc><lastmod>2026-10-11</lastmod></url>
+  <url>
+    <loc>https://bestdivinghawaii.com/get-featured/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
